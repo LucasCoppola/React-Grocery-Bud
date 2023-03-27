@@ -39,6 +39,10 @@ form {
   background-color: #f8fafc;
 }
 
+.form-input:focus-visible {
+  outline: 1px solid #e2e8f0;
+}
+
 .form-btn {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
@@ -92,4 +96,36 @@ form {
   background-color: white;
   border: 1px solid red;
   transition: 0.3s ease-in-out all;
+}
+
+.alert {
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  font-weight: lighter;
+  border-radius: 0.25rem;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.alert-danger {
+  color: #721c24;
+  background: #f8d7da;
+}
+.alert-success {
+  color: #155724;
+  background: #d4edda;
+}
+
+.check {
+  font-size: 0.9rem;
+  margin-right: 0.8rem;
+}
+.exclamation {
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
 }
